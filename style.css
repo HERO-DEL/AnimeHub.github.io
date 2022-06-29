@@ -73,7 +73,8 @@ header{
 .btn:hover{
     background: var(--white);
     color: var(--violet);
-    letter-spacing: .1rem;
+    /* letter-spacing: .1rem; */
+    transform: scale(1.03);
 }
 
 header .logo{
@@ -162,7 +163,9 @@ header .icons i:hover{
 }
 
 .home .box{
-    min-height: 100vh;
+    min-height:100vh;
+    /* height:650px;
+    width: 1520px; */
     display:-webkit-box;
     display:-ms-flexbox;
     display: flex;
@@ -174,9 +177,15 @@ header .icons i:hover{
 }
 
 .home .box{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
-    object-fit: cover;
+    object-fit:fill;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
+
 
 .home .box.second{
     justify-content: flex-end;
@@ -265,12 +274,33 @@ header .icons i:hover{
     padding: 1rem 0;
 }
 
+#AllBanners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+#primaryMainContainer{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns:auto auto;
+}
+#contentBanners{
+    width:1640px;
+}
+
+
 .anime{
     padding:5rem;
 }
 
 .anime .box{
     max-width: 300px;
+    flex-direction: row;
     height:168px;
     border-radius: 15px;
     background-repeat: no-repeat;
@@ -299,7 +329,8 @@ header .icons i:hover{
 }
 
 .detective .box{
-    width:299px;
+    max-width: 300px;
+    flex-direction: row;
     height:168px;
     border-radius: 15px;
     background-repeat: no-repeat;
@@ -327,12 +358,12 @@ header .icons i:hover{
 }
 
 .movie .box{
-    width:299px;
+    max-width: 300px;
+    flex-direction: row;
     height:168px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
-    
     background-attachment: fixed;
  }
  
@@ -518,9 +549,8 @@ header .icons i:hover{
 }
 
 
-
 /* media query */
-@media(max-width: 991px){
+@media(max-width: 480px){
     html{
         font-size: 55%;
         
@@ -533,7 +563,7 @@ header .icons i:hover{
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
     header .icons #menu-bars{
         display: inline-block;
     }
@@ -548,6 +578,7 @@ header .icons i:hover{
         padding:1rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+
 
     header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -568,12 +599,23 @@ header .icons i:hover{
         top: 15px;
         right: 35px;
     }
+
 }
 
-@media(max-width: 450px){
+@media only screen and (max-width: 480px) {
+    .box {
+        width: 30%;
+        height: auto;
+        /* background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center; */
+    }
+  }
+
+@media(max-width: 480px){
     html{
         font-size: 50%;
-        
+   
     }
     
     
