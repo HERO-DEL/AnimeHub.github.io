@@ -621,10 +621,14 @@ header .icons i:hover{
     html{
         font-size: 50%;
    
-    }
-    
-    
+    }    
 }
+
+@media(max-width: 768px){
+    body{
+        overflow-x: hidden; 
+    }  
+} 
 
 
 .overlay {
