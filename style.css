@@ -568,6 +568,10 @@ header .icons i:hover{
         display: inline-block;
         
     }
+
+    header .navbar{
+        display: none;
+    }
     header .navbar{
         position: absolute;
         top: 100%;
