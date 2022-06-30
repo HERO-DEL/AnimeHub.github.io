@@ -571,10 +571,11 @@ header .icons i:hover{
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
     header .icons #search-icon{
         /* display: inline-block;    */
-        display:flex;
+        display: inline-block;
+        position: absolute;
         
     }
 
@@ -598,7 +599,7 @@ header .icons i:hover{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     header .navbar a{
-        display:block;
+        display:inline-flex;
         padding:1.5rem;
         margin: 1rem;
         font-size: 2rem;
@@ -626,7 +627,7 @@ header .icons i:hover{
     }
   } */
 
-@media(max-width: 450px){
+@media(max-width: 480px){
     html{
         font-size: 50%;
    
