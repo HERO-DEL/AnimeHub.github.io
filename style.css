@@ -572,9 +572,9 @@ header .icons i:hover{
 }
 
 @media(max-width: 768px){
-    header .icons #menu-bars{
+    header .icons #search-icon{
         /* display: inline-block;    */
-        display: inline-block;
+        display:flex;
         
     }
 
@@ -626,7 +626,7 @@ header .icons i:hover{
     }
   } */
 
-@media(max-width: 768px){
+@media(max-width: 480px){
     html{
         font-size: 50%;
         overflow-x: hidden;
