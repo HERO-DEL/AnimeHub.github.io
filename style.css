@@ -571,7 +571,7 @@ header .icons i:hover{
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 768px){
     header .icons #search-icon{
         /* display: inline-block;    */
         display:flex;
