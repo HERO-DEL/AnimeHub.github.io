@@ -581,7 +581,7 @@ header .icons i:hover{
     header .navbar{
         display:block;
     }
-    /* header .navbar{
+    header .navbar{
         position: absolute;
         top: 100%;
         left: 0;
@@ -603,7 +603,7 @@ header .icons i:hover{
         margin: 1rem;
         font-size: 2rem;
         background: var(--violet);
-    } */
+    }
     .home .box .content h3{
         font-size:5rem;
     } 
