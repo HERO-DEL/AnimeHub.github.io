@@ -631,7 +631,12 @@ header .icons i:hover{
         font-size: 50%;
         overflow-x: hidden;
    
-    }    
+    }   
+    
+    body{
+        overflow-x: hidden;
+   
+    } 
 }
 
 .overlay {
