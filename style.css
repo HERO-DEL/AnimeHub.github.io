@@ -163,9 +163,9 @@ header .icons i:hover{
 }
 
 .home .box{
-    min-height:100vh;
-    /* height:650px;
-    width: 1520px; */
+    /* min-height:100vh; */
+    height:650px;
+    width: 1520px;
     display:-webkit-box;
     display:-ms-flexbox;
     display: flex;
