@@ -565,8 +565,7 @@ header .icons i:hover{
 
 @media(max-width: 768px){
     header .icons #menu-bars{
-        /* display: inline-block; */
-        display: flex;
+        display: inline-block;   
     }
     header .navbar{
         position: absolute;
