@@ -602,7 +602,7 @@ header .icons i:hover{
 
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .box {
         width: 30%;
         height: auto;
@@ -610,7 +610,7 @@ header .icons i:hover{
         background-size:contain;
         background-position:center; */
     }
-  }
+  } */
 
 @media(max-width: 480px){
     html{
