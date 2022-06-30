@@ -173,9 +173,17 @@ header .icons i:hover{
     background-position: center !important;
     justify-content:flex-end;
     padding:2rem 9%;
+    flex-direction: row;
+    justify-content: flex-start;
+    object-fit:fill;
+    background-repeat:no-repeat;
+
+
+
 }
 
-.home .box{
+/* .home .box{
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -183,7 +191,8 @@ header .icons i:hover{
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
-}
+
+} */
 
 
 .home .box.second{
