@@ -2,7 +2,7 @@ let menu = document.querySelector('#search-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () =>{
-  // menu.classList.toggle('fa-search');
+  menu.classList.toggle('active');
   navbar.classList.toggle('active');
 }
 
