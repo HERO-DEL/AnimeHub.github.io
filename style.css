@@ -579,7 +579,7 @@ header .icons i:hover{
     }
 
     header .navbar{
-        display: none;
+        display: flex;
     }
     header .navbar{
         position: absolute;
@@ -633,9 +633,6 @@ header .icons i:hover{
    
     }    
 }
-
-
-
 
 .overlay {
     height: 0%;
