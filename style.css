@@ -446,7 +446,7 @@ header .icons i:hover{
 
 
 .Watch{
-    max-width: 800px;
+    max-width: auto;
     margin-left: 20px;
     width: 100%;
     display: grid;
