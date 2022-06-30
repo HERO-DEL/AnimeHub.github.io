@@ -120,7 +120,7 @@ header .icons i{
     width:45px;
     height: 45px;
     border-radius: 50%;
-    display: flex;
+    display:block;
     justify-content: center;
     align-items: center;
     
