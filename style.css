@@ -579,7 +579,7 @@ header .icons i:hover{
     }
 
     header .navbar{
-        display: block;
+        display:none;
     }
     header .navbar{
         position: absolute;
@@ -626,7 +626,7 @@ header .icons i:hover{
     }
   } */
 
-@media(max-width: 480px){
+@media(max-width: 450px){
     html{
         font-size: 50%;
    
