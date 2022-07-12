@@ -129,7 +129,7 @@ var swiper = new Swiper(".home-slider", {
     document.getElementById("switch1").href = "https://www1.9anime.id/watch/one-piece.ov8/ep-1";
     document.getElementById("switch2").href = "https://www1.9anime.id/watch/one-piece-dub.34r/ep-1/";
     document.getElementById("switch3").href = "https://myanimelist.net/anime/21/One_Piece/";
-    document.getElementById('h2').innerHTML ="ABOUT ONE PIECE"
+    document.getElementById('h2').innerHTML ="ABOUT NARUTO SHIPPUDEN"
     document.getElementById('para').innerHTML = "One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 101 tankōbon volumes as of December 2021. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his pirate crew, the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as the One Piece in order to become the next King of the Pirates. ";
     document.getElementById("hide").style.height = "100%";
     console.log("Hello world!");
