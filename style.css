@@ -162,9 +162,12 @@ header .icons i:hover{
 }
 
 .home .box{
-    /* min-height:100vh; */
-    height:650px;
-    width: 1520px;
+    min-height:100vh; 
+    /* height:650px;
+    width: 1520px;  */
+    /* height:auto; */
+    max-width:100%;
+    
     display:-webkit-box;
     display:-ms-flexbox;
     display: flex;
@@ -571,7 +574,7 @@ header .icons i:hover{
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 480px){
     header .icons #search-icon{
         /* display: inline-block;    */
         display: inline-block;
@@ -636,6 +639,9 @@ header .icons i:hover{
     body{
         overflow-x: hidden;
    
+    }
+    .home .box{
+        max-width:100%;
     } 
 }
 
