@@ -574,7 +574,7 @@ header .icons i:hover{
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 411px){
     header .icons #search-icon{
         /* display: inline-block;    */
         display: inline-block;
@@ -585,7 +585,7 @@ header .icons i:hover{
         display:none;
     }
     header .navbar{
-        display: none;
+        display: inline-block;
         position: absolute;
         top: 100%;
         left: 0;
@@ -630,9 +630,9 @@ header .icons i:hover{
     }
   } */
 
-@media(max-width: 765px){
+@media(max-width: 411px){
     html{
-        font-size: 50%;
+        font-size: 40%;
    
     }   
     
