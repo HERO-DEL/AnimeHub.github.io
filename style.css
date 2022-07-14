@@ -634,6 +634,7 @@ header .icons i:hover{
 @media(max-width: 412px){
     html{
         font-size: 40%;
+        overflow-x: hidden;
    
     }   
     
