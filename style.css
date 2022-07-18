@@ -181,8 +181,6 @@ header .icons i:hover{
     object-fit:fill;
     background-repeat:no-repeat;
 
-
-
 }
 
 /* .home .box{
@@ -213,12 +211,14 @@ header .icons i:hover{
     text-transform: uppercase;
 }
 
-.comtent{
+/* .comtent{
     display: flex;
-    flex-direction: row;
+     flex-direction: row; 
     row-gap: 0.5px;
+    overflow: hidden;
+    overflow-y: scroll;
 
-}
+} */
 
 .content1{
     width:50rem;
@@ -614,9 +614,9 @@ header .icons i:hover{
     } 
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-        font-size: 40px;
+        font-size: 10px;
         top: 15px;
-        right: 35px;
+        right: 55px;
     }
 
 }
@@ -632,16 +632,27 @@ header .icons i:hover{
   } */
 
 @media(max-width: 412px){
-    html{
+    body{
         font-size: 40%;
         overflow-x: hidden;
-   
     }   
     
     .home .box{
         max-width:100%;
-        height: auto;
+        height: 400px;
+        overflow-y: auto;
+        background-size: cover;
+        
     } 
+
+    /* .overlay .closebtn {
+        padding: 20px;
+        text-decoration: none;
+        font-size: 5px;
+        display: block;
+        transition: 0.3s;
+        color: white;
+      } */
 
     /* .search #search-icon{
         float: left;
@@ -756,7 +767,7 @@ header .icons i:hover{
   }
   
   .overlay .closebtn {
-    position: absolute;
+    position:static;
     top: 20px;
     right: 45px;
     font-size: 60px;
